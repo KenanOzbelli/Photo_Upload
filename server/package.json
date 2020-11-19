@@ -1,0 +1,22 @@
+{
+  "name": "react-nodejs-example",
+  "version": "1.0.0",
+  "description": "example project react with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "start:dev": "nodemon server"
+  },
+  "author": "Kenan Ozbelli",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.3.0"
+  }
+}
